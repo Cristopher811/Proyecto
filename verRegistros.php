@@ -15,7 +15,7 @@
  				<td width="150" align="center"></td>
  			</tr>
  		<?php
- 			$conexion=mysqli_connect("localhost","root","sci300megabyte","escuela");
+ 			$conexion=mysqli_connect("localhost","*usuario*","*contraseña*","escuela");
  			$consultaSQL="SELECT * FROM alumnos ORDER BY nombreCompleto ASC";
  			$resultado=mysqli_query($conexion, $consultaSQL);
  			while($datos=mysqli_fetch_array($resultado))

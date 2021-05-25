@@ -13,7 +13,7 @@
 		//		Segundo parametro: Usuario del gestor de la base de datos
 		//		Tercer parametro: Contraseña del usuario
 		//		Cuarto parametro: Nombre de la base de datos
-		$conexion = mysqli_connect("localhost","root","sci300megabyte","escuela");
+		$conexion = mysqli_connect("localhost","*usuario*","*contraseña*","escuela");
 		//Paso 2: Definir la consulta SQL (insert)
 		$consultaSQL = "UPDATE alumnos SET cuenta=".$_POST['cuenta'].", nombreCompleto='".$_POST['nombre']."', semestre='".$_POST['semestre']."' WHERE cuenta=".$_POST['cuentaValidar'];
 

@@ -13,7 +13,7 @@
 		//		Segundo parametro: Usuario del gestor de la base de datos
 		//		Tercer parametro: Contraseña del usuario
 		//		Cuarto parametro: Nombre de la base de datos
-		$conexion = mysqli_connect("localhost","cristopher","Alyan_Curris8","escuela");
+		$conexion = mysqli_connect("localhost","*usuario*","*contraseña*","escuela");
 		//Paso 2: Definir la consulta SQL (insert)
 		$consultaSQL = "INSERT INTO alumnos 
 						(cuenta, nombreCompleto, semestre) 
