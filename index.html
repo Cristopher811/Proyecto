@@ -3,15 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trabajando con PHP + MySQL</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h3><i><b>Insertando Registros desde PHP a MySQL</b></i></h3>
+	<div id="mainbox" onclick="openFunction()">&#9776; Menú</div>
+	<div id="menu" class="sidemenu">
+		<a href="#" class="closebtn" onclick="closeFunction()">&times;</a> 
+		<a href="VerDatos.php">Ver datos</a>
+		<a href="InsertarDatos.php">Ingresar Datos</a>
+		<a href="ModificarDatos.php">Modificar Datos</a>
+		<a href="EliminarDatos.php">Eliminar Datos</a>
+	</div>
+	<h3>Insertando Registros desde PHP a MySQL</h3>
 	<form action="insertar.php" name="forma1" method="post">
 			Ingresa No Cuenta: <input type="text" name="cuenta" size="25"><br><br>
  			Ingresa Nombre: <input type="text" name="nombre" size="50"><br><br>
  			Ingresa Semestre: <input type="text" name="semestre" size="5"><br><br><br><br>
  			<input type="submit" value="Guardar datos">
+			<script type="text/javascript">
+				function openFunction(){
+					document.getElementById("menu").style.width="200px";
+				}
+				function closeFunction(){
+					document.getElementById("menu").style.width="0px";
+				}
+			</script>
 	</form>
-	
 </body>
 </html>
