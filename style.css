@@ -1,10 +1,49 @@
-body {
+*	{
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+body{
 	font-family:sans-serif;
 	margin: 20px 40px;
 }
+
+form {
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+}
+h3 {
+	text-align: center;
+	padding: 12px;
+	color: #444;
+}
+
+input{
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
 #mainbox {
 	font-size: 24px;
 	cursor: pointer;
+	text-align: left;
 }
 .sidemenu {
 	position: fixed;
