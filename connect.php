@@ -1,3 +1,3 @@
 <?php
-	$conex = mysqli_connect("localhost","root","Alyan_Curris8","escuela"); 
+	$conex = mysqli_connect("localhost","root","1sgetsy0401","escuela"); 
 ?>
