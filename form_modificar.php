@@ -15,6 +15,8 @@
 	</div>
 	<form action="modificar.php" name="forma1" method="post">
 			<h3>Ingresa los datos que quieras modificar</h3>
+			<input type="hidden" name="cuentaValidar" size="25" value="
+			<?php echo $_GET['cuenta']; ?>">
 			<input type="text" name="cuenta" placeholder="Número de cuenta">
 			<input type="text" name="nombre" placeholder="Nombre completo">
  			<input type="text" name="semestre" placeholder="Semestre">

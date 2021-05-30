@@ -14,7 +14,7 @@
 		<a href="index.php">Ingresar datos</a>
 	</div>
 	<form action="eliminar.php" name="forma1" method="post">
-			<h3>Ingresa los datos que quieras eliminar</h3>
+			<h3>Ingresa los datos del usuario que desees eliminar</h3>
 			<input type="text" name="cuenta" placeholder="Número de cuenta">
  			<input type="submit" value="Eliminar">
 	</form>
