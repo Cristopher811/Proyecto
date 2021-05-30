@@ -16,8 +16,6 @@
 	<form action="eliminar.php" name="forma1" method="post">
 			<h3>Ingresa los datos que quieras eliminar</h3>
 			<input type="text" name="cuenta" placeholder="Número de cuenta">
-			<input type="text" name="nombre" placeholder="Nombre completo">
- 			<input type="text" name="semestre" placeholder="Semestre">
  			<input type="submit" value="Eliminar">
 	</form>
 	    <!-- script-menu  -->
