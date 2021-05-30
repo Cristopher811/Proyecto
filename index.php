@@ -9,11 +9,11 @@
 	<div id="mainbox" onclick="openFunction()">&#9776; Menú</div>
 	<div id="menu" class="sidemenu">
 		<a href="#" class="closebtn" onclick="closeFunction()">&times;</a> 
-		<a href="Mostrar.php">Ver datos</a>
-		<a href="Modificar.php">Modificar Datos</a>
-		<a href="Eliminar.php">Eliminar Datos</a>
+		<a href="mostrar.php">Ver datos</a>
+		<a href="form_modificar.php">Modificar Datos</a>
+		<a href="form_eliminar.php">Eliminar Datos</a>
 	</div>
-	<form action="insertar.php" name="forma1" method="post">
+	<form action="ingresar.php" name="forma1" method="post">
 			<h3>Ingresa tus datos</h3>
 			<input type="text" name="cuenta" placeholder="Número de cuenta">
 			<input type="text" name="nombre" placeholder="Nombre completo">
@@ -29,10 +29,5 @@
           document.getElementById("menu").style.width="0px";
         }
 	</script>
-	
-	<?php
-		include("ingresar.php");
-	?>	
-
 </body>
 </html>
