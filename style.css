@@ -147,7 +147,7 @@ input[type="radio"]:checked + label:before{
 }
 
 .radio_label:not(:last-of-type){
-	border-right: 1px solid #008A44;
+	border-right: 1px solid #D3FFE9;
 }
 
 .radio_input:checked + .radio_label{
