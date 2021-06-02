@@ -21,6 +21,11 @@ h3 {
 	padding: 12px;
 	color: #444;
 }
+h4 {
+	text-align: center;
+	padding: 12px;
+	color: #444;
+}
 
 input{
 	width: calc(100% - 20px);
@@ -48,22 +53,6 @@ input[type='submit']:hover{
 	border: none;
 	cursor: pointer;
 }
-
-input[type='button'] {
-	background-color: #99FF66;
-	color: #52584F;
-	width: calc(22%);
-	border: none;
-	cursor: pointer;
-}
-input[type='button']:hover{
-	background-color: #CEF5BA;
-	color: #52584F;
-	width: calc(22%);
-	border: none;
-	cursor: pointer;
-}
-
 
 #mainbox {
 	font-size: 24px;
@@ -99,4 +88,68 @@ input[type='button']:hover{
 	right: 0px;
 	font-size: 36px;
 	margin-left: 32px;
+}
+
+/*input[type="radio"]{
+	align-items: center;
+	display: none;
+}
+/*label {
+	align-items: center;
+	position: relative;
+	align-items: center;
+	color: #01cc65;
+	font-size: 20px;
+	border: 2px solid #01cc65;
+	border-radius: 5px;
+	padding: 10px 120px;
+	display: flex;
+	margin-bottom: 10px;
+}
+label:before{
+	content: "";
+	height: 30px;
+	width: 30px;
+	border: 3px solid #01cc65;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+input[type="radio"]:checked + label{
+	background-color: #01cc65;
+	color: white;
+}
+input[type="radio"]:checked + label:before{
+	height: 16px;
+	width: 16px;
+	border: 10px solid white;
+	background-color: #01cc65;
+}
+*/
+.radio {
+	display: inline-flex;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.25);
+	margin: 20px;
+}
+
+.radio_input {
+	display: none;
+}
+
+.radio_label{
+	padding: 8px 14px;
+	font-size: 14px;
+	color: #fff;
+	background: #01cc65;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+
+.radio_label:not(:last-of-type){
+	border-right: 1px solid #008A44;
+}
+
+.radio_input:checked + .radio_label{
+	background: #008A44;
 }
