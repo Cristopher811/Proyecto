@@ -19,6 +19,7 @@
 			<input type="text" name="nombre" placeholder="Nombre completo" required>
 			<input type="text" name="semestre" placeholder="Semestre" required>
 			<h3>Calificaciones</h3>
+			<h4>Selecciona la parcial con la que quieres interactuar</h4>
 			<div class="radio">
 				<input class="radio_input" type="radio" id="1" name="parcial" value="0">
 				<label class="radio_label" for="1">Parcial 1</label>
