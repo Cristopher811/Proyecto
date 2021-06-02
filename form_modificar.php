@@ -6,13 +6,24 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div id="mainbox" onclick="openFunction()">&#9776; Menú</div>
+	<!--<div id="mainbox" onclick="openFunction()">&#9776; Menú</div>
 	<div id="menu" class="sidemenu">
 		<a href="#" class="closebtn" onclick="closeFunction()">&times;</a> 
 		<a href="mostrar.php">Ver datos</a>
 		<a href="form_eliminar.php">Eliminar datos</a>
 		<a href="index.php">Ingresar datos</a>
-	</div>
+	</div>-->
+	<header>
+		<nav>
+			<ul class="nav_links">
+				<li><a href="index.php">Ingresar</a></li>
+				<li><a href="form_eliminar.php">Eliminar</a></li>
+				<li><a href="mostrar.php">Ver alumnos</a></li>
+			</ul>
+			<a class="contacto"	href="#"><Button>Sobre nosotros</Button></a>
+		</nav>
+	</header>
+
 	<form action="modificar.php" name="forma1" method="post">
 			<h3>Ingresa los datos que quieras modificar</h3>
 			<input type="hidden" name="cuentaValidar" size="25" value="

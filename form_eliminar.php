@@ -6,13 +6,24 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div id="mainbox" onclick="openFunction()">&#9776; Menú</div>
+	<!--<div id="mainbox" onclick="openFunction()">&#9776; Menú</div>
 	<div id="menu" class="sidemenu">
 		<a href="#" class="closebtn" onclick="closeFunction()">&times;</a> 
 		<a href="mostrar.php">Ver datos</a>
 		<a href="form_modificar.php">Modificar datos</a>
 		<a href="index.php">Ingresar datos</a>
-	</div>
+	</div>-->
+	<header>
+		<nav>
+			<ul class="nav_links">
+				<li><a href="index.php">Ingresar</a></li>
+				<li><a href="form_modificar.php">Modificar</a></li>
+				<li><a href="mostrar.php">Ver alumnos</a></li>
+			</ul>
+			<a class="contacto"	href="#"><Button>Sobre nosotros</Button></a>
+		</nav>
+	</header>
+
 	<form action="eliminar.php" name="forma1" method="post">
 			<h3>Ingresa los datos del usuario que desees eliminar</h3>
 			<input type="text" name="cuenta" placeholder="Número de cuenta">

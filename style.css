@@ -43,6 +43,7 @@ input[type='submit']{
 	margin-top: 22px;
 	border: none;
 	cursor: pointer;
+	transition: background 1s;
 }
 input[type='submit']:hover{
 	background-color: #A1D7E7;
@@ -54,7 +55,53 @@ input[type='submit']:hover{
 	cursor: pointer;
 }
 
-#mainbox {
+li, a, button {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #4C4C4C;
+	text-decoration: none;
+}
+header {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: #0088a9;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	color: #fff;
+	border-radius: 50px;
+	cursor: pointer;
+	margin-top: 20px;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
+
+
+/*#mainbox {
 	font-size: 24px;
 	cursor: pointer;
 	text-align: left;
@@ -88,43 +135,8 @@ input[type='submit']:hover{
 	right: 0px;
 	font-size: 36px;
 	margin-left: 32px;
-}
+}*/
 
-/*input[type="radio"]{
-	align-items: center;
-	display: none;
-}
-/*label {
-	align-items: center;
-	position: relative;
-	align-items: center;
-	color: #01cc65;
-	font-size: 20px;
-	border: 2px solid #01cc65;
-	border-radius: 5px;
-	padding: 10px 120px;
-	display: flex;
-	margin-bottom: 10px;
-}
-label:before{
-	content: "";
-	height: 30px;
-	width: 30px;
-	border: 3px solid #01cc65;
-	border-radius: 50%;
-	margin-right: 20px;
-}
-input[type="radio"]:checked + label{
-	background-color: #01cc65;
-	color: white;
-}
-input[type="radio"]:checked + label:before{
-	height: 16px;
-	width: 16px;
-	border: 10px solid white;
-	background-color: #01cc65;
-}
-*/
 .radio {
 	display: inline-flex;
 	overflow: hidden;
@@ -143,7 +155,7 @@ input[type="radio"]:checked + label:before{
 	color: #fff;
 	background: #01cc65;
 	cursor: pointer;
-	transition: background 0.5s;
+	transition: background 1s;
 }
 
 .radio_label:not(:last-of-type){
