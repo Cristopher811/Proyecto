@@ -8,12 +8,12 @@
 								'".$_POST['cuenta']."',
 								'".$_POST['nombre']."',
 								'".$_POST['mate']."'',
-								".$_POST['fisica'].",
-								".$_POST['ingles'].",
-								".$_POST['metodologia'].",
-								".$_POST['progra'].",
-								".$_POST['analisis'].",
-								".$_POST['internet'].",
+								'".$_POST['fisica']."',
+								'".$_POST['ingles']."',
+								'".$_POST['metodologia']."',
+								'".$_POST['progra']."',
+								'".$_POST['analisis']."',
+								'".$_POST['internet']."',
 								'".$_POST['parcial']."')";				
 	mysqli_query($conex, $consulta);
 	mysqli_query($conex, $consulta2); //linea 19//
