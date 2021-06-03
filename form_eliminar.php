@@ -32,13 +32,13 @@
 			<h3>Calificaciones</h3>
 			<h4>Selecciona la parcial con la que quieres interactuar</h4>
 			<div class="radio">
-				<input class="radio_input" type="radio" id="1" name="parcial" value="0">
+				<input class="radio_input" type="radio" id="1" name="parcial" value="Parcial 1">
 				<label class="radio_label" for="1">Parcial 1</label>
 
-				<input class="radio_input" type="radio" id="2" name="parcial" value="0">
+				<input class="radio_input" type="radio" id="2" name="parcial" value="Parcial 2">
 				<label class="radio_label" for="2">Parcial 2</label>
 
-				<input class="radio_input" type="radio" id="3" name="parcial" value="0">
+				<input class="radio_input" type="radio" id="3" name="parcial" value="Parcial 3">
 				<label class="radio_label" for="3">Parcial 3</label>
 			</div>
 
