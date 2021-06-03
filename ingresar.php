@@ -7,7 +7,7 @@
 								values(
 								'".$_POST['cuenta']."',
 								'".$_POST['nombre']."',
-								".$_POST['mate'].",
+								'".$_POST['mate']."'',
 								".$_POST['fisica'].",
 								".$_POST['ingles'].",
 								".$_POST['metodologia'].",
