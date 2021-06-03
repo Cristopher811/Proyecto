@@ -5,7 +5,7 @@
 	$consulta2 = "INSERT INTO calificaciones (
 								cuenta, nombreCompleto, mate, fisica, ingles, metodologia, progra, analisis, internet, parcial)
 								values(
-								".$_POST['cuenta'].",
+								'".$_POST['cuenta']."',
 								'".$_POST['nombre']."',
 								".$_POST['mate'].",
 								".$_POST['fisica'].",
@@ -16,6 +16,6 @@
 								".$_POST['internet'].",
 								'".$_POST['parcial']."')";				
 	mysqli_query($conex, $consulta);
-	mysql_query($conex, $consulta2);
+	mysqli_query($conex, $consulta2); //linea 19//
 	echo "Sísirve";
 ?>
