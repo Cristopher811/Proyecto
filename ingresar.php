@@ -15,6 +15,7 @@
 								'".$_POST['analisis']."',
 								'".$_POST['internet']."',
 								'".$_POST['parcial']."')";				
-	mysqli_query($conex, $consulta, $consulta2);
+	mysqli_query($conex, $consulta);
+	mysql_query($conex, $consulta2);
 	echo "Sísirve";
 ?>
