@@ -44,13 +44,13 @@
 				<label class="radio_label" for="3">Parcial 3</label>
 			</div>
 			<h4>Ingresa la calificación en cada materia</h4>
-			<input type="number" step="0.1" min="5" max="10" name"mate" placeholder="Calificación de Matemáticas VI">
-			<input type="number" step="0.1" min="5" max="10" name"fisica" placeholder="Calificación de Física IV">
-			<input type="number" step="0.1" min="5" max="10" name"ingles" placeholder="Calificación de Inglés IV">
-			<input type="number" step="0.1" min="5" max="10" name"metodo" placeholder="Calificación de Metodología de la Investigación">
-			<input type="number" step="0.1" min="5" max="10" name"progra" placeholder="Calificación de Programación IV">
-			<input type="number" step="0.1" min="5" max="10" name"analisis" placeholder="Calificación de Análisis y Desarrollo de Sistemas">
-			<input type="number" step="0.1" min="5" max="10" name"internet" placeholder="Calificación de Programación en Internet II">
+			<input type="number" step="0.1" min="5" max="10" name="mate" placeholder="Calificación de Matemáticas VI">
+			<input type="number" step="0.1" min="5" max="10" name="fisica" placeholder="Calificación de Física IV">
+			<input type="number" step="0.1" min="5" max="10" name="ingles" placeholder="Calificación de Inglés IV">
+			<input type="number" step="0.1" min="5" max="10" name="metodo" placeholder="Calificación de Metodología de la Investigación">
+			<input type="number" step="0.1" min="5" max="10" name="progra" placeholder="Calificación de Programación IV">
+			<input type="number" step="0.1" min="5" max="10" name="analisis" placeholder="Calificación de Análisis y Desarrollo de Sistemas">
+			<input type="number" step="0.1" min="5" max="10" name="internet" placeholder="Calificación de Programación en Internet II">
 
 			<input type="submit" value="Guardar datos">
 	</form>
