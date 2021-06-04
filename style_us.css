@@ -1,0 +1,32 @@
+*	{
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+body{
+	font-family:sans-serif;
+	margin: 20px 40px;
+}
+button {
+	padding: 9px 200px;
+	background-color: rgba(0,136,169,1);
+	border: none;
+	color: #fff;
+	border-radius: 50px;
+	cursor: pointer;
+	margin-top: 20px;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
+button {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+}
+

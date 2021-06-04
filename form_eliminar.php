@@ -20,7 +20,7 @@
 				<li><a href="form_modificar.php">Modificar</a></li>
 				<li><a href="mostrar.php">Ver alumnos</a></li>
 			</ul>
-			<a class="contacto"	href="#"><Button>Sobre nosotros</Button></a>
+			<a class="contacto"	href="info.html"><Button>Sobre nosotros</Button></a>
 		</nav>
 	</header>
 
