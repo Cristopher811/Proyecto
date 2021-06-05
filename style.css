@@ -35,8 +35,7 @@ input{
 	font-size: 16px;
 }
 
-input[type='submit']{
-	background-color: rgba(0,136,169,1);
+input[type='submit']{	background-color: rgba(0,136,169,1);
 	color: #fff;
 	width: calc(80% - 20px);
 	margin: 0 10%;

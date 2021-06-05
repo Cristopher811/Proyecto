@@ -16,12 +16,13 @@
 			<a class="contacto"	href="#"><Button>Sobre nosotros</Button></a>
 		</nav>
 	</header>
-<div class="datatable_container">
+
 	<table class="datatable">
-		<thead>
+		<thead class="head">
 			<tr>
 				<th>Número de Cuenta</th>
 				<th>Alumno</th>
+				<th>Semestre</th>
 				<th>Parcial</th>
 				<th>Matemáticas VI</th>
 				<th>Física IV</th>
@@ -29,11 +30,12 @@
 				<th>Programación IV</th>
 				<th>Análisis y Diseño de sistemas</th>
 				<th>Programación de Internet II</th>
+				<th>Acciones</th>
 			</tr>
 		</thead>
 <?php
 		include("connect.php");
-		$consulta = "select * from calificaciones order by nombreCompleto ASC";
+		$consulta = "select * from calificaciones order by semestre ASC, nombreCompleto ASC, parcial ASC";
 		$resultado = mysqli_query($conex, $consulta);
 		while($datos=mysqli_fetch_array($resultado)){
 			echo "
@@ -41,6 +43,7 @@
 						<tr>
 							<td>".$datos['cuenta']."</td>
 							<td>".$datos['nombreCompleto']."</td>
+							<td>".$datos['semestre']."</td>
 							<td>".$datos['parcial']."</td>
 							<td>".$datos['mate']."</td>
 							<td>".$datos['fisica']."</td>
@@ -48,12 +51,16 @@
 							<td>".$datos['progra']."</td>
 							<td>".$datos['analisis']."</td>
 							<td>".$datos['internet']."</td>
+							<td><a href='form_modificar.php?cuenta=".$datos['cuenta'].
+																								"&nombreCompleto=".$datos['nombreCompleto'].
+																								"&parcial=".$datos['parcial']."'>Modificar</a>
+																								<a href='eliminar.php?cuenta=".$datos['cuenta'].                       
+ 				                                        "&parcial=".$datos['parcial']."'>Eliminar</a></td>
 						</tr>
 					</tbody>
 					";
 		}
 ?>	
 	</table>
-</div>
 </body>
 </html>
