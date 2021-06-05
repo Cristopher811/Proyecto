@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ver alumnos</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style_table.css">
 </head>
 <body>
 	<header>
@@ -16,6 +16,7 @@
 			<a class="contacto"	href="#"><Button>Sobre nosotros</Button></a>
 		</nav>
 	</header>
+<div class="datatable_container">
 	<table class="datatable">
 		<thead>
 			<tr>
@@ -53,5 +54,6 @@
 		}
 ?>	
 	</table>
+</div>
 </body>
 </html>
