@@ -18,17 +18,18 @@
 	</header>
 
 	<form action="modificar.php" name="forma1" method="post">
-			<h3>Ingresa los datos que quieras modificar</h3>
-			<h3>Calificaciones</h3>
+			<h3>Calificaciones a modificar</h3>
+			<input type="text" name="cuenta" value="<?= $_GET['cuenta']?>">
+			<input type="text" name"parcial" value="<?= $_GET['parcial']?>">
 			<h4>Selecciona la parcial con la que quieres interactuar</h4>
 
-			<input type="number" name="Mate" min="5" max="10" placeholder="Calificación de Matemáticas">
-			<input type="number" name="Fisica" min="5" max="10" placeholder="Calificación de Física">	
-			<input type="number" name="Ingles" min="5" max="10" placeholder="Calificación de Inglés">
-			<input type="number" name="Metodo" min="5" max="10" placeholder="Calificación de Metodología de Investigación">
-			<input type="number" name="Progra" min="5" max="10" placeholder="Calificación de Programación">
-			<input type="number" name="Analisis" min="5" max="10" placeholder="Calificación de Análisis y Diseño de Sistemas">
-			<input type="number" name="Internet" min="5" max="10" placeholder="Calificación de Programación de Internet">
+			<input type="number" name="mate" min="5" max="10" placeholder="Calificación de Matemáticas">
+			<input type="number" name="fisica" min="5" max="10" placeholder="Calificación de Física">	
+			<input type="number" name="ingles" min="5" max="10" placeholder="Calificación de Inglés">
+			<input type="number" name="metodo" min="5" max="10" placeholder="Calificación de Metodología de Investigación">
+			<input type="number" name="progra" min="5" max="10" placeholder="Calificación de Programación">
+			<input type="number" name="analisis" min="5" max="10" placeholder="Calificación de Análisis y Diseño de Sistemas">
+			<input type="number" name="internet" min="5" max="10" placeholder="Calificación de Programación de Internet">
 			
  			<input type="submit" value="Modificar">
 	</form>
