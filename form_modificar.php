@@ -20,7 +20,7 @@
 	<form action="modificar.php" name="forma1" method="post">
 			<h3>Calificaciones a modificar</h3>
 			<input type="text" name="cuenta" value="<?= $_GET['cuenta']?>">
-			<input type="text" name"parcial" value="<?= $_GET['parcial']?>">
+			<input type="text" name="parcial" value="<?= $_GET['parcial']?>">
 			<h4>Selecciona la parcial con la que quieres interactuar</h4>
 
 			<input type="number" name="mate" min="5" max="10" placeholder="Calificación de Matemáticas">
