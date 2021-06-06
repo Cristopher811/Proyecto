@@ -7,7 +7,7 @@
 										   progra=".$_POST['progra'].",
 										   analisis=".$_POST['analisis'].",
 										   internet=".$_POST['internet']."
-	WHERE cuenta='".$_POST['cuenta']. "' AND parcial='" . $_POST['parcial'] . "'";
+	WHERE cuenta='".$_POST['cuenta']. "' AND parcial='" . $_POST['parcial'] . "' AND semestre='" .$_POST['semestre'] . "'";
 
 	mysqli_query($conex,$consulta);
 	echo "Hecho pordos<br>";

@@ -6,13 +6,6 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<!--<div id="mainbox" onclick="openFunction()">&#9776; Menú</div>
-	<div id="menu" class="sidemenu">
-		<a href="#" class="closebtn" onclick="closeFunction()">&times;</a> 
-		<a href="mostrar.php">Ver datos</a>
-		<a href="form_modificar.php">Modificar Datos</a>
-		<a href="form_eliminar.php">Eliminar Datos</a>
-	</div>-->
 	<header>
 		<nav>
 			<ul class="nav_links">
@@ -52,14 +45,5 @@
 
 			<input type="submit" value="Guardar datos">
 	</form>
-	    <!-- script-menu  -->
-  <script type="text/javascript">
-      function openFunction(){
-				document.getElementById("menu").style.width="200px";
-        }
-      function closeFunction(){
-          document.getElementById("menu").style.width="0px";
-        }
-	</script>
 </body>
 </html>

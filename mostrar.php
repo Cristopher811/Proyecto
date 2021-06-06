@@ -10,8 +10,6 @@
 		<nav>
 			<ul class="nav_links">
 				<li><a href="index.php">Ingresar</a></li>
-				<li><a href="form_eliminar.php">Eliminar</a></li>
-				<li><a href="form_modificar.php">Modificar</a></li>
 			</ul>
 			<a class="contacto"	href="#"><Button>Sobre nosotros</Button></a>
 		</nav>
@@ -52,9 +50,12 @@
 							<td>".$datos['analisis']."</td>
 							<td>".$datos['internet']."</td>
 							<td><a href='form_modificar.php?cuenta=".$datos['cuenta'].
-																								"&parcial=".$datos['parcial']."'>Modificar</a>
-								  <a href='eliminar.php?cuenta=".$datos['cuenta'].                       
- 				                                        "&parcial=".$datos['parcial']."'>Eliminar</a></td>
+																						"&parcial=".$datos['parcial'].
+																						"&semestre=".$datos['semestre']."'>Modificar</a>
+							<a href='eliminar.php?cuenta=".$datos['cuenta'].
+																						"&parcial=".$datos['parcial'].
+																						"&semestre=".$datos['semestre']."'>Eliminar</a></td>
+
 						</tr>
 					</tbody>
 					";

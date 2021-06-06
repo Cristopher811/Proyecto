@@ -10,7 +10,6 @@
 		<nav>
 			<ul class="nav_links">
 				<li><a href="index.php">Ingresar</a></li>
-				<li><a href="form_eliminar.php">Eliminar</a></li>
 				<li><a href="mostrar.php">Ver alumnos</a></li>
 			</ul>
 			<a class="contacto"	href="info.html"><Button>Sobre nosotros</Button></a>
@@ -21,6 +20,7 @@
 			<h3>Calificaciones a modificar</h3>
 			<input type="text" name="cuenta" value="<?= $_GET['cuenta']?>">
 			<input type="text" name="parcial" value="<?= $_GET['parcial']?>">
+			<input type="text" name="semestre" value="<?= $_GET['semestre']?>">
 			<h4>Selecciona la parcial con la que quieres interactuar</h4>
 
 			<input type="number" name="mate" min="5" max="10" placeholder="Calificación de Matemáticas">
@@ -33,15 +33,6 @@
 			
  			<input type="submit" value="Modificar">
 	</form>
-	    <!-- script-menu  -->
-  <script type="text/javascript">
-      function openFunction(){
-				document.getElementById("menu").style.width="200px";
-        }
-      function closeFunction(){
-          document.getElementById("menu").style.width="0px";
-        }
-	</script>
 </body>
 </html>
 
