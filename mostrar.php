@@ -11,7 +11,7 @@
 			<ul class="nav_links">
 				<li><a href="index.php">Ingresar</a></li>
 			</ul>
-			<a class="contacto"	href="#"><Button>Sobre nosotros</Button></a>
+			<a class="contacto"	href="info.html"><Button>Sobre nosotros</Button></a>
 		</nav>
 	</header>
 
