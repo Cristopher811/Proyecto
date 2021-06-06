@@ -15,7 +15,6 @@
 					'$_POST[parcial]'
 					)";
 											
-	mysqli_query($conex, $consulta); //linea 19//
-	echo "Sísirve";
-	print_r($consulta);
+mysqli_query($conex, $consulta); 
+header('Location: index.php')
 ?>
