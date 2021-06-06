@@ -52,9 +52,8 @@
 							<td>".$datos['analisis']."</td>
 							<td>".$datos['internet']."</td>
 							<td><a href='form_modificar.php?cuenta=".$datos['cuenta'].
-																								"&nombreCompleto=".$datos['nombreCompleto'].
 																								"&parcial=".$datos['parcial']."'>Modificar</a>
-																								<a href='eliminar.php?cuenta=".$datos['cuenta'].                       
+								  <a href='eliminar.php?cuenta=".$datos['cuenta'].                       
  				                                        "&parcial=".$datos['parcial']."'>Eliminar</a></td>
 						</tr>
 					</tbody>

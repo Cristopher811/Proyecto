@@ -17,5 +17,5 @@
 											
 	mysqli_query($conex, $consulta); //linea 19//
 	echo "Sísirve";
-	print_r($consulta)
+	print_r($consulta);
 ?>
