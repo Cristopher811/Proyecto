@@ -24,6 +24,7 @@
 				<th>Parcial</th>
 				<th>Matemáticas VI</th>
 				<th>Física IV</th>
+				<th>Inglés</th>
 				<th>Metodología de la Investigación</th>
 				<th>Programación IV</th>
 				<th>Análisis y Diseño de sistemas</th>
@@ -45,6 +46,7 @@
 							<td>".$datos['parcial']."</td>
 							<td>".$datos['mate']."</td>
 							<td>".$datos['fisica']."</td>
+							<td>".$datos['ingles']."</td>
 							<td>".$datos['metodologia']."</td>
 							<td>".$datos['progra']."</td>
 							<td>".$datos['analisis']."</td>
