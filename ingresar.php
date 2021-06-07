@@ -1,6 +1,6 @@
 <?php
 	include("connect.php");
-	$consulta = "INSERT INTO calificaciones (cuenta, nombreCompleto, semestre, mate, fisica, ingles, metodologia, 
+	$consulta = "INSERT INTO calificaciones (cuenta, nombre, semestre, mate, fisica, ingles, metodologia, 
 		progra, analisis, internet, parcial)
 		values('$_POST[cuenta]',
 					'$_POST[nombre]',

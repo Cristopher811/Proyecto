@@ -4,7 +4,7 @@ use escuela;
 create table calificaciones(
 	id int not null auto_increment primary key,
 	cuenta varchar(8) not null,
-	nombreCompleto varchar(50) not null,
+	nombre varchar(50) not null,
 	semestre varchar(10) not null,
 	mate float not null,
 	fisica float not null,

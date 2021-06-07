@@ -34,14 +34,14 @@
 		</thead>
 <?php
 		include("connect.php");
-		$consulta = "select * from calificaciones order by semestre ASC, nombreCompleto ASC, parcial ASC";
+		$consulta = "select * from calificaciones order by semestre ASC, nombre ASC, parcial ASC";
 		$resultado = mysqli_query($conex, $consulta);
 		while($datos=mysqli_fetch_array($resultado)){
 			echo "
 						<tbody>
 						<tr>
 							<td>".$datos['cuenta']."</td>
-							<td>".$datos['nombreCompleto']."</td>
+							<td>".$datos['nombre']."</td>
 							<td>".$datos['semestre']."</td>
 							<td>".$datos['parcial']."</td>
 							<td>".$datos['mate']."</td>
@@ -53,7 +53,8 @@
 							<td>".$datos['internet']."</td>
 							<td><a href='form_modificar.php?cuenta=".$datos['cuenta'].
 																						"&parcial=".$datos['parcial'].
-																						"&semestre=".$datos['semestre']."'>Modificar</a>
+																						"&semestre=".$datos['semestre'].
+																						"&nombre=".$datos['nombre']."'>Modificar</a>
 							<a href='eliminar.php?cuenta=".$datos['cuenta'].
 																						"&parcial=".$datos['parcial'].
 																						"&semestre=".$datos['semestre']."'>Eliminar</a></td>

@@ -6,9 +6,15 @@ include("connect.php");
 										   metodologia=".$_POST['metodo'].",
 										   progra=".$_POST['progra'].",
 										   analisis=".$_POST['analisis'].",
-										   internet=".$_POST['internet']."
-	WHERE cuenta='".$_POST['cuenta']. "' AND parcial='" . $_POST['parcial'] . "' AND semestre='" .$_POST['semestre'] . "'";
-	mysqli_query($conex,$consulta);
-	header('Location: mostrar.php');
+											 internet=".$_POST['internet'].",
+											 cuenta='".$_POST['cuenta']."',
+											 nombre='".$_POST['nombre']."',
+											 parcial='".$_POST['parcial']."',
+											 semestre='".$_POST['semestre']."'
+											 
+	WHERE cuenta='".$_POST['check_cuenta']. "' AND parcial='" . $_POST['check_parcial'] . "' AND semestre='" .$_POST['check_semestre'] . "' AND nombre = '" .$_POST['check_nombre'] . "'";
+
+mysqli_query($conex,$consulta);
+header('Location: mostrar.php');
 ?>
 
